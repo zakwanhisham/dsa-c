@@ -4,6 +4,7 @@ static void display(int intArray[], int length) {
     printf("Array : [");
 
     for (i = 0; i < length; ++i) {
+        // Display value of element at index i
         printf(" %d ", intArray[i]);
     }
     printf(" ]\n");
@@ -11,10 +12,12 @@ static void display(int intArray[], int length) {
 
 int main() {
     int i = 0;
+    // Declare an array
     int intArray[8];
 
+    // Initialize elements of array n to 0
     for (i = 0; i < 8; ++i) {
-        intArray[i] = 0;
+        intArray[i] = 0; // set elements to default value of 0
     }
     printf("Array with default data.");
 
