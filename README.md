@@ -8,4 +8,4 @@ The tutorial came from: https://www.tutorialspoint.com/dsa_using_c/
 
 ## TODO
 
-- Need to make learn it
+- Need to make a website for this. Just for fun and for revision
